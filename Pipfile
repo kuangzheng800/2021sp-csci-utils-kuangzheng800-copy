@@ -4,6 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pytest = "*"
+pytest-cov = "*"
+canvasapi = "*"
+dotenv = "*"
+gitpython = "*"
+csci-utils = {editable = true, path = "."}
 
 [dev-packages]
 
