@@ -1,0 +1,3 @@
+[console_scripts]
+csci-utils = csci_utils.cli:main
+

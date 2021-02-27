@@ -1,0 +1,96 @@
+Metadata-Version: 1.2
+Name: csci-utils
+Version: 0.0.0
+Summary: CSCI utils assignment project
+Home-page: https://github.com/csci-e-29/2021sp-csci-utils-kuangzheng800
+Author: Zheng Kuang
+Author-email: kuangzheng800@gmail.com
+License: MIT
+Project-URL: Changelog, https://github.com/csci-e-29/2021sp-csci-utils-kuangzheng800/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/csci-e-29/2021sp-csci-utils-kuangzheng800/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        CSCI utils assignment project
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install csci-utils
+        
+        You can also install the in-development version with::
+        
+            pip install https://github.com/csci-e-29/2021sp-csci-utils-kuangzheng800/archive/master.zip
+        
+        
+        Documentation
+        =============
+        
+        
+        To use the project:
+        
+        .. code-block:: python
+        
+            import csci_utils
+            csci_utils.longest()
+        
+        
+        Development
+        ===========
+        
+        To run all the tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.0 (2021-02-26)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Private :: Do Not Upload
+Requires-Python: >=3.6
