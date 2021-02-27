@@ -8,6 +8,8 @@ pytest = "*"
 pytest-cov = "*"
 canvasapi = "*"
 environs = "*"
+dotenv = "*"
+gitpython = "*"
 csci-utils = {editable = true, path = "."}
 
 [dev-packages]
