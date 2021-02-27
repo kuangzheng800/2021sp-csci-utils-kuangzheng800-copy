@@ -51,7 +51,7 @@ before_install:
   - lsb_release -a || true
 
 install:
-  - python -mpip install --progress-bar=off tox-travis -rci/requirements.txt
+  - pip install --progress-bar=off tox-travis -rci/requirements.txt
   - virtualenv --version
   - easy_install --version
   - pip --version
